@@ -1,0 +1,168 @@
+/*********** General Styles ******************/
+
+*{
+	margin:0px;
+	padding:0px;
+	border:0;
+}
+
+#container {
+	width:960px;
+	margin:auto;
+}
+
+h1{
+	text-align:center;
+	margin:10px;
+	font-size:50px;
+}
+
+h2{
+	margin:20px 0px 10px 0px;;
+	padding:10px 0px;
+	font-size:30px;
+	color:#6e0023;
+	font-weight:bold;
+	border-bottom:1px solid #6e0023;
+}
+
+input,textarea,select{
+	border:1px solid #6e0023;
+}
+
+textarea{
+	width:330px;
+	height:100px;
+}
+
+label {
+	display:block;
+	margin-bottom:10px;
+	margin-top:20px;
+	font-family:sans-serif;
+	font-size:18px;
+}
+
+
+/*********** Header Styles ******************/
+#header {
+}
+
+#nav{
+	width:400px;
+	margin:auto;
+}
+
+#nav a{
+	display:block;
+	float:left;
+	padding:10px;
+	margin:10px;
+	color:#6e0023;
+	font-weight:bold;
+	font-size:25px;
+	border:1px solid #6e0023;
+	text-decoration:none;
+}
+
+#nav a:hover {
+	background:#6e0023;
+	color:#FFF;
+}
+
+/************ Content Styles **************/
+#content{
+	clear:both;
+}
+
+#sectionDropdown{
+	border:1px solid #6e0023;
+}
+
+.theButtons{
+	margin:5px 30px;
+	padding:10px;
+	color:#FFF;
+	background:#6e0023;
+	font-weight:bold;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+}
+
+.theButtons:hover{
+	background:#2a000a;
+}
+
+.updateForm{
+	width:450px;
+	float:left;
+	border-bottom:1px dashed #6e0023;
+	padding-left:30px;
+}
+
+.manuForm{
+	min-height:850px;
+}
+
+#addForm {
+	display:none;
+	width:100%;
+	float:none;
+}
+
+.photoSelect{
+	border:none;
+	position:relative;
+	top:-20px;
+	padding-bottom:0px;
+}
+
+.contentEditSection {
+	padding:10px;
+}
+
+.response{
+	width:300px;
+	margin:auto;
+	text-align:center;
+	padding:15px;
+	font-size:20px;
+	color:darkGreen;
+	font-weight:bold;
+}
+
+.emptyNotice{
+	font-size:20px;
+	padding:20px 0px;
+}
+
+.maxCharLimit{
+	color:red;
+	display:none;
+}
+
+/******************* Products/Manufacturers Page Styles **************/
+.checkBoxes{
+	margin:0px;
+	font-size:14px;
+}
+
+#alphabet{
+	width:auto;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #6e0023;
+}
+
+#alphabet a{
+	padding:5px 8px;
+	color:#6e0023;
+	font-size:18px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#alphabet a:hover{
+	color:#FFF;
+	background:#6e0023;
+}

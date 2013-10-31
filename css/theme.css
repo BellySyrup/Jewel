@@ -1,0 +1,455 @@
+/************** General Styles ***************/
+*{
+	border:0;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	background: black;
+}
+
+h1,h2{
+	color:#6e0023;
+}
+
+a{
+	color:#6e0023;
+	text-decoration:none;
+}
+
+a:hover, #colRight li:hover{
+	color:#b9b497;
+}
+
+#container{
+	overflow: auto;
+	background: white;
+	width: 100%;
+}
+#contentWrapper{
+	width: 100%;
+	background: white;
+}
+#content{
+	margin: auto;
+	width: 960px;
+	overflow: auto;
+	background: white;
+	padding:0px 0px 0px 10px
+}
+
+#colLeft{
+	float: left;
+	width: 650px;
+	margin-bottom: 10px;
+}
+
+#colRight{
+	text-align: center;
+	float: left;
+	width: 288px;
+	margin-bottom: 10px;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	box-shadow:0px 0px 10px #000;
+	-webkit-box-shadow:0px 0px 10px #000;
+	-moz-box-shadow:0px 0px 10px #000;
+}
+
+#colRight li{
+	list-style: none;
+	text-align: left;
+}
+.glanceAdjust{
+	margin-top: -63px;
+}
+
+/************** Header Styles ***************/
+#header{
+	background: black;
+	overflow: hidden;
+}
+
+#logo{
+	margin: 25px;
+	width: 300px;
+	position: relative;
+	z-index: 10;
+}
+
+#headerImg{
+	position: relative;
+	top: -256px;
+	z-index: 1;
+}
+
+#logo2{
+	width: 220px;
+	position:absolute;
+	top:10px;
+	z-index: 1000;
+	float: left;
+}
+
+#otherHeaderImg{
+	position: relative;
+	z-index: 1;
+}
+
+#nav{
+	margin: auto;
+	background: url("../images/quotesbg.png") repeat-y;
+	width: 945px;
+	height: 65px;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+	line-height: 65px;
+}
+
+.nav{
+	display: block;
+	float: right;
+	color: #FFF;
+	height: 65px;
+	padding: 0px 0px 0px 40px;
+	font-weight:bold;
+}
+
+.nav:hover{
+	color: #a80532 !important;
+}
+
+#quotesWrapper{
+	margin: auto;
+	width: 960px;
+	background: url("../images/quotesbg.png") repeat-y;
+	-webkit-box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 1);
+	box-shadow: inset 0px 7px 15px 0px rgba(0, 0, 0, 1);
+}
+
+#quotesContent{
+	line-height: 75px;
+	color: #b9b497;
+	font-size: 18px;
+	font-weight: bold;
+	overflow: hidden;
+	text-shadow: 2px 2px 10px #000;
+}
+
+#quotes{
+	background: black;
+	height: 100px;
+}
+
+#slider{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 5000px;
+	margin-left: -50px;
+}
+
+#slider li{
+	height: 100px;
+	list-style: none;
+	text-align: center;
+	float: left;
+	padding-left: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 950px;
+
+}
+
+/************** Footer Styles ******************/
+#footer{
+	background:#000;
+	height: 90px;
+	clear: both;
+	color: white;
+	font-size: smaller;
+	text-align: center;
+}
+
+#footerNav{
+	background: url("../images/quotesbg.png") repeat-y;
+	margin: auto;
+	width: 900px;
+	color:#FFF;
+	text-align: center;
+	padding:10px 0px;
+}
+
+.footerNav{
+	color: #FFF;
+	padding: 0px 10px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.footerNav:hover{
+	color: #a80532;
+}
+
+#footer p{
+	text-align:center;
+	clear:both;
+}
+.returnTop{
+	cursor: pointer;
+	position: fixed;
+	background-color: #EEE;
+	z-index: 9999;
+	display: block;
+	color: #222;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #BBB;
+	box-shadow: 0 0 0 1px #fff inset, 0 1px 4px #bbb;
+	-moz-box-shadow: 0 0 0 1px #fff inset, 0 1px 4px #bbb;
+	-webkit-box-shadow: 0 0 0 1px #fff inset, 0 1px 4px #bbb;
+	right: 15px;
+	bottom: -10px;
+	width: 50px;
+	padding: 15px 10px 25px;
+	border-radius: 5px 5px 0 0;
+	text-shadow: 0 1px white;
+	font: 11px "Helvetica Neue",Helvetica,Arial;
+	font-weight: bold;
+}
+
+/*************** Home Page Styles ****************/
+#intro{
+	background: url("../images/introbg.png") repeat-y top center black;
+	height: 375px;
+	-webkit-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 1);
+}
+
+#secondintro{
+	background: url("../images/introbg.png") repeat-y top center black;
+	height: 110px;
+	-webkit-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 1);
+	box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 1);
+}
+
+#introContent{
+	width: 960px;
+	margin: auto;
+}
+
+#secondintroContent{
+	width:960px;
+	margin: auto;
+}
+
+#blurbContent{
+	margin: auto;
+	width: 960px;
+}
+
+#blurbs{
+	overflow: auto;
+	background: #dddddd;
+}
+
+.blurb{
+	float: left;
+	width: 400px;
+	margin: 0px 40px;
+}
+
+.blurbimg{
+	float: left;
+}
+
+.blurbp{
+	margin-left: 110px;
+}
+
+.homeTeasers, .homeTeasers:hover{
+	color:#000;
+}
+.homeTeasers img{
+	box-shadow: 0px 0px 5px #000;
+}
+
+.columns{
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+/*************** Products Page Styles ***************/
+.manu{
+	margin-bottom: 10px;
+	float: left;
+	width: 260px;
+	height: 250px;
+	padding: 15px 65px 15px 0px;
+}
+.manuSpan h5{
+	margin: 0px;
+	padding: 0px;
+	width: 610px;
+	color: #6e0023;
+	font-size: 25px;
+	clear: both;
+}
+.manu img{
+	max-width: 200px;
+	max-height: 100px;
+}
+.contactWrapper{
+	clear: both;
+	margin-top: 25px;
+}
+
+.manu h3{
+
+}
+.manuImgDiv{
+	
+	width: 200px;
+	height: 100px;
+}
+
+.productHover{
+	display: none;
+	position: absolute;
+	padding: 10px;
+	width: 300px;
+	background:#FFF;
+	z-index: 20;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	box-shadow:0px 0px 10px #000;
+	-webkit-box-shadow:0px 0px 10px #000;
+	-moz-box-shadow:0px 0px 10px #000;
+}
+
+.productHover h5{
+	margin: 0px;
+	padding: 0px;
+}
+.productHover h6{
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#alphabet{
+	width:610px;
+	padding:10px 0px;
+	border-bottom:1px solid #000;
+	border-top:1px solid #000;
+	text-align: center;
+}
+
+#alphabet a{
+	padding:5px 6px 5px 5px;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#alphabet a:hover{
+	color:#FFF;
+	background:#6e0023;
+}
+#resetPage{
+	float: right;
+	line-height: 50px;
+	font-size: 16px;
+	margin-right: 350px;
+	
+}
+.listHeader{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: -25px;
+	color: #6e0023;
+}
+.line{
+	height: 1px;
+	background: #6e0023;
+	float: right;
+	margin-top: 14px;
+	width: 95%;
+}
+.listItem{
+	margin-left: -25px;
+	color: black;
+}
+
+/****************** Services Page Styles **************/
+.services{
+	margin: 0px 10px 10px 0px;
+	width: 640px;
+	float: left;
+}
+
+.services h2{
+	width:400px;
+}
+
+.services p, .services h2{
+	float: left;
+}
+
+.services p{
+	width: 400px;
+}
+
+.services img{
+	float: right;
+	width: 200px;
+	margin-right:25px;
+}
+
+
+/************ Contact styles *****************/
+#contact{
+	width:600px;
+	float:left;
+}
+
+#contactImg
+{
+	float:right;
+	margin:25px 25px 25px 25px;
+}
+
+#contactImg img
+{
+	height:250px;
+}
+
+
+/************ About Page Styles **************/
+#aboutRight{
+	text-align: center;
+	float: left;
+	width: 288px;
+}
+
+#aboutImg{
+	float:right;
+	margin:25px 5px 25px 25px;
+	box-shadow: 0px 0px 10px #000;
+	padding: 0px;
+	background: black;
+	height: 217px;
+}
+
+#aboutImg img{
+	width:280px;
+}
+
